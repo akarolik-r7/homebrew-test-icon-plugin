@@ -7,7 +7,7 @@ class IconPlugin < Formula
   homepage "https://rapid7.com"
   version "v4.11.6"
   url "https://github.com/rapid7/icon-plugin-homebrew/releases/download/v4.11.6/icon-plugin_v4.11.6_Darwin_x86_64.tar.gz"
-  bottle :unneeded
+ # bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
